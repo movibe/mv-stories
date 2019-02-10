@@ -1,0 +1,17 @@
+{
+  "name": "mv-stories",
+  "version": "0.0.1",
+  "description": "Component to show user's Stories",
+  "main": "index.js",
+  "author": "Marcelo T Magalhaes <marcelotmagalhaes@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+    "react": "^16.4.2",
+    "react-native": "^0.51.0"
+  },
+  "dependencies": {
+    "react-native-image-progress": "^1.1.1",
+    "react-native-progress": "^3.5.0"
+  }
+}
