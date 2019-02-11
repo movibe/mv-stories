@@ -1,7 +1,6 @@
 import { StyleSheet, Dimensions } from 'react-native'
 
 const { width, height } = Dimensions.get('window')
-import { isIphoneX } from '../../helpers'
 
 export default StyleSheet.create({
 	deck: {
@@ -9,6 +8,7 @@ export default StyleSheet.create({
 		height,
 		backgroundColor: 'white',
 		flexDirection: 'row',
+		zIndex: 999,
 	},
 	progressIndicator: {
 		position: 'absolute',
